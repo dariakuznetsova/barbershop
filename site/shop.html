@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/hamburgers.min.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&amp;subset=cyrillic,latin" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/libs/modernizr.js"></script>
+		<title>Barbershop BORODINSKI - Магазин</title>
+	</head>
+	<body>
+		<div class="popup-window login-form">
+			<div class="title">Личный кабинет</div><span>Введите, пожалуйста, свой логин и пароль</span>
+			<form>
+				<input type="text" placeholder="Логин" class="login">
+				<input type="text" placeholder="Пароль" class="password">
+				<label class="label label__checkbox">Запомните меня
+					<input type="checkbox" class="checkbox-input shop-sidebar__input">
+					<div class="checkbox-fake"></div>
+				</label><a href="#">Я забыл пароль!</a>
+				<button type="submit" class="hvr-radial-out">Войти</button>
+			</form>
+		</div>
+		<div class="main_wrapper">
+			<div class="header">
+				<div class="wrapper">
+					<ul class="header-menu-list menu-hidden white-bg">
+						<div class="burger-wrapper">
+							<div class="trigger">
+								<button type="button" class="hamburger hamburger--spin"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+							</div>
+						</div>
+						<li class="header-menu__item"><a href="/index.html" class="header-menu__link">Главная</a></li>
+						<li class="header-menu__item"><a href="/information.html" class="header-menu__link">Информация</a></li>
+						<li class="header-menu__item"><a href="/news.html" class="header-menu__link">Новости</a></li>
+						<li class="header-menu__item"><a href="/price.html" class="header-menu__link">Прайс-лист</a></li>
+						<li class="header-menu__item"><a href="/shop.html" class="header-menu__link">Магазин</a></li>
+						<li class="header-menu__item"><a href="/contacts.html" class="header-menu__link">Контакты</a></li>
+					</ul>
+					<div class="header-login"><a href="#login" class="header-login__link">Вход</a></div>
+				</div>
+			</div>
+			<article class="article">
+				<div class="shop wrapper white-bg row">
+					<h1 class="h1">BARBERSHOP BORODINSKI — Магазин</h1>
+					<div class="breadcrumbs"> 
+						<div class="breadcrumbs__elem">Главная</div>
+						<div class="breadcrumbs__elem">Прайс-лист</div>
+						<div class="breadcrumbs__elem">Средства для ухода</div>
+					</div>
+					<div class="shop-sidebar col-md-3 col-sm-5 col-xs-12">
+						<div class="shop-sidebar-block">
+							<div class="shop-sidebar-title">Производители</div>
+							<ul class="shop-sidebar-list">
+								<li class="shop-sidebar__item">
+									<label class="label label__checkbox">
+										<input type="checkbox" class="shop-sidebar__input checkbox-input">
+										<div class="checkbox-fake"></div>Baxter of California
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__checkbox">
+										<input type="checkbox" class="shop-sidebar__input checkbox-input">
+										<div class="checkbox-fake"></div>Mr Natty
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__checkbox">
+										<input type="checkbox" class="shop-sidebar__input checkbox-input">
+										<div class="checkbox-fake"></div>Suavecito
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__checkbox">
+										<input type="checkbox" class="shop-sidebar__input checkbox-input">
+										<div class="checkbox-fake"></div>Malin+Goetz
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__checkbox">
+										<input type="checkbox" class="shop-sidebar__input checkbox-input">
+										<div class="checkbox-fake"></div>Murray's
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__checkbox">
+										<input type="checkbox" class="shop-sidebar__input checkbox-input">
+										<div class="checkbox-fake"></div>American crew
+									</label>
+								</li>
+							</ul>
+						</div>
+						<div class="shop-sidebar-block">
+							<div class="shop-sidebar-title">Группы товаров</div>
+							<ul class="shop-sidebar-list">
+								<li class="shop-sidebar__item">
+									<label class="label label__radiobox">
+										<input type="radio" name="radio" class="shop-sidebar__input radiobox-input">
+										<div class="radiobox-fake"></div>Бритвенные принадлежности
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__radiobox">
+										<input type="radio" name="radio" class="shop-sidebar__input radiobox-input">
+										<div class="radiobox-fake"></div>Средства для ухода
+									</label>
+								</li>
+								<li class="shop-sidebar__item">
+									<label class="label label__radiobox">
+										<input type="radio" name="radio" class="shop-sidebar__input radiobox-input">
+										<div class="radiobox-fake"></div>Аксессуары
+									</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="shop-content col-md-8 col-sm-7 col-xs-12">
+						<ul class="shop-content-list row">
+							<li class="shop-content__item col-md-4 col-sm-6 col-xs-6">
+								<div class="wrap"><a href="#" class="shop-content__link"><img src="/images/one.jpg" class="shop-content__img"></a>
+									<p>Baxter of California</p>
+									<p>Набор для путешествий</p>
+									<div class="shop-content__buy">
+										<div class="shop__price">2900 руб.</div><a href="#" class="shop__button hvr-radial-out">купить</a>
+									</div>
+								</div>
+							</li>
+							<li class="shop-content__item col-md-4 col-sm-6 col-xs-6">
+								<div class="wrap"><a href="#" class="shop-content__link"><img src="/images/two.jpg" class="shop-content__img"></a>
+									<p>Baxter of California</p>
+									<p>Увлажняющий кондиционер</p>
+									<div class="shop-content__buy">
+										<div class="shop__price">750 руб.</div><a href="#" class="shop__button hvr-radial-out">купить</a>
+									</div>
+								</div>
+							</li>
+							<li class="shop-content__item col-md-4 col-sm-6 col-xs-6">
+								<div class="wrap"><a href="#" class="shop-content__link"><img src="/images/three.jpg" class="shop-content__img"></a>
+									<p>Suavecito</p>
+									<p>Гель для волос</p>
+									<div class="shop-content__buy">
+										<div class="shop__price">290 руб.</div><a href="#" class="shop__button hvr-radial-out">купить</a>
+									</div>
+								</div>
+							</li>
+							<li class="shop-content__item col-md-4 col-sm-6 col-xs-6">
+								<div class="wrap"><a href="#" class="shop-content__link"><img src="/images/four.jpg" class="shop-content__img"></a>
+									<p>American crew</p>
+									<p>Глина для укладки волос</p>
+									<div class="shop-content__buy">
+										<div class="shop__price">1200 руб.</div><a href="#" class="shop__button hvr-radial-out">купить</a>
+									</div>
+								</div>
+							</li>
+							<li class="shop-content__item col-md-4 col-sm-6 col-xs-6">
+								<div class="wrap"><a href="#" class="shop-content__link"><img src="/images/five.jpg" class="shop-content__img"></a>
+									<p>Suavecito</p>
+									<p>Набор для бритья</p>
+									<div class="shop-content__buy">
+										<div class="shop__price">800 руб.</div><a href="#" class="shop__button hvr-radial-out">купить</a>
+									</div>
+								</div>
+							</li>
+							<li class="shop-content__item col-md-4 col-sm-6 col-xs-6">
+								<div class="wrap"><a href="#" class="shop-content__link"><img src="/images/six.jpg" class="shop-content__img"></a>
+									<p>American crew</p>
+									<p>Гель для волос</p>
+									<div class="shop-content__buy">
+										<div class="shop__price">450 руб.</div><a href="#" class="shop__button hvr-radial-out">купить</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="shop-pagination"><a href="#" class="pagination__link">1</a><a href="#" class="pagination__link">2</a><a href="#" class="pagination__link">3</a><a href="#" class="pagination__link">4</a></div>
+					</div>
+				</div>
+			</article>
+			<div class="footer">
+				<div class="wrapper row">
+					<div class="footer-address col-md-4 col-sm-4 col-xs-12">
+						<p>Barbershop "Borodinski"</p>
+						<p>Адрес: г. Москва, ул.Собаки Павлова, д.13</p>
+						<p>Телефон: +7(495)123-45-678</p>
+					</div>
+					<div class="footer-socials col-md-4 col-sm-4 col-xs-12"><span>Давайте дружить!</span>
+						<ul class="footer-socials-list">
+							<li class="footer-socials__item"><a href="http://vk.com/" target="_blank" class="footer-socials__link">vk</a></li>
+							<li class="footer-socials__item"><a href="https://www.facebook.com/" target="_blank" class="footer-socials__link">fb</a></li>
+							<li class="footer-socials__item"><a href="https://www.instagram.com/" target="_blank" class="footer-socials__link">instagram</a></li>
+						</ul>
+					</div>
+					<div class="footer-design col-md-4 col-sm-4">
+						<p>Дизайн сайта:</p>
+						<div class="footer-design__author hvr-wobble-to-top-right"><a href="#">John Doe</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/libs/jquery.min.js"></script>
+		<script src="js/libs/jquery.bpopup.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
